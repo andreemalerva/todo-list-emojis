@@ -84,19 +84,19 @@
             </div>
         </div>
     </div>
-    
-    <footer className="footer">
-        <div className='container'>
-            <div className="row">
-                <div className="col-sm padBottom">
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm padBottom">
                     <h2>Tecnologías usadas:</h2>
                     <h3>HTML, CSS y Codeigniter 💻</h3>
                 </div>
-                <div className="col-sm padBottom">
+                <div class="col-sm padBottom">
                     <h2>Este proyecto fue realizado por:</h2>
                     <h3>Andree Malerva ❤️</h3>
                 </div>
-                <div className="col-sm padBottom">
+                <div class="col-sm padBottom">
                     <h2>¡Invitame un café!</h2>
                     <a href="https://www.buymeacoffee.com/andreemalerva"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=andreemalerva&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
                 </div>

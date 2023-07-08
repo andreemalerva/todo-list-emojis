@@ -3,6 +3,7 @@
 :root {
     --font-Anonymous: 'Anonymous Pro', monospace;
     --font-Chakra: 'Chakra Petch', sans-serif;
+    --font-coming: 'Coming Soon', cursive;
     --font-nav: #2F5671;
     --color-white: #fff;
 }
@@ -290,7 +291,7 @@ footer {
 }
 
 footer h2 {
-    font-family: var(--font-anonymous);
+    font-family: var(--font-Anonymous);
     font-size: 20px;
 }
 
@@ -322,7 +323,7 @@ footer h3 {
     }
 
     footer h2 {
-        font-family: var(--font-anonymous);
+        font-family: var(--font-Anonymous);
         font-size: 16px;
     }
     
