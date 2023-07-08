@@ -17,9 +17,10 @@ class App extends BaseConfig
      *
      *    http://example.com/
      */
-    public string $baseURL = 'http://localhost:8080/';
+    //public string $baseURL = 'http://localhost:8080/';
     //public string $baseURL = 'http://localhost/andreemalerva-proyectos/todo-list-emojis/';
-
+    public string $baseURL = "https://todo-list-emoji-am.netlify.app/";
+    
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
      * If you want to accept multiple Hostnames, set this.
