@@ -8,7 +8,7 @@ const isProduction = process.env.NODE_ENV == "production";
 const stylesHandler = MiniCssExtractPlugin.loader;
 
 const config = {
-  entry:["./public/resources/javascript/index.js","./public/resources/javascript/emoji.js"],
+  entry:"./public/resources/javascript/index.js",
   output: {
     path: path.resolve(__dirname, "dist"),
   },
