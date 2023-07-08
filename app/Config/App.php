@@ -19,7 +19,7 @@ class App extends BaseConfig
      */
     //public string $baseURL = 'http://localhost:8080/';
     //public string $baseURL = 'http://localhost/andreemalerva-proyectos/todo-list-emojis/';
-    public string $baseURL = 'https://todo-list-emoji-am.netlify.app/';
+    public string $baseURL = 'https://am-todolist-emoji.netlify.app';
     
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.
