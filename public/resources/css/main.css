@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Chakra+Petch&display=swap');
+
+:root {
+    --font-Anonymous: 'Anonymous Pro', monospace;
+    --font-Chakra: 'Chakra Petch', sans-serif;
+    --font-nav: #2F5671;
+    --color-white: #fff;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #FF5F6D;
+    background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D);
+    background: linear-gradient(to right, #FFC371, #FF5F6D);
+}
+
+button:focus,
+button:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
+
+.header-todo {
+    background-color: var(--font-nav);
+}
+
+.header-todo nav a {
+    font-family: var(--font-Chakra);
+    font-size: 24px;
+    color: var(--color-white);
+}
+
+.header-todo nav a img {
+    margin-right: 8px;
+}
+
+.body-todo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card {
+    width: 75%;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.card input {
+    border: 1px solid rgba(255, 255, 255, 0.19);
+}
+
+.card input.search {
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgba(255, 255, 255, 0.48);
+    color: #2F716B;
+    display: flex;
+    width: 100%;
+    padding: 5px 10px;
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 25px;
+
+}
+
+.card-search button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.iconDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #FF0000;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #FF0000;
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.iconDelete img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.card .searchButton {
+    border: 1px solid #2F5671;
+    background-color: #2F716B;
+    color: #fff;
+}
+
+.card .searchButton:hover {
+    background-color: #fff;
+    color: #2F716B;
+}
+
+.card .add {
+    border: 1px solid #2F5671;
+    background-color: transparent;
+    color: #2F716B;
+}
+
+.card .add:hover {
+    background-color: #2F716B;
+    color: #fff;
+}
+
+#addHomeworkModal .modal-content {
+    background: rgba(61, 196, 102, 0.56);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(61, 196, 102, 0.3);
+}
+
+#addHomeworkModal .modal-title {
+    color: #fff;
+}
+
+.modal-body input {
+    background: rgba(255, 255, 255, 0.46);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.5px);
+    -webkit-backdrop-filter: blur(13.5px);
+    border: 1px solid rgb(63, 62, 62);
+    display: flex;
+    width: 100%;
+    padding: 5px 10px;
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.modal-body input:focus-visible {
+    outline: 1px solid #2F716B;
+}
+
+.modal-body .addButton {
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.modal-body .addButton:hover {
+    background-color: #2F716B;
+    color: #fff;
+}
+
+.message {
+    display: none;
+}
+
+.message .flag {
+    background-color: #28978D;
+    color: #fff;
+    border: 1px solid #28978D;
+    border-radius: 8px;
+    padding: 4px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.message .flag h3 {
+    text-align: center;
+    font-family: var(--font-Anonymous);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+
+#listHomework {
+    padding: 30px 15px;
+}
+
+#listHomework h2 {
+    font-family: var(--font-Chakra);
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0 15px;
+}
+
+.mb-small-items {
+    height: 20px;
+    margin-bottom: 1rem;
+}
+
+.mb-small-items:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#listHomework .mb-small-items p.decoration {
+    border: 1px dashed #28978D;
+    padding: 5px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: var(--font-Anonymous);
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 0;
+    color: #2F5671;
+    width: 100%;
+}
+
+.direction-items {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.picmo__popupContainer {
+    padding: 5px 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    left: 55px !important;
+    top: 200px !important;
+    z-index: 10000 !important;
+}
+
+#addEmoji {
+    background-color: #F59828;
+    border: 1px solid #F59828;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 8px;
+    padding: 5px 10px;
+    font-family: var(--font-Anonymous);
+    font-size: 18px;
+    line-height: 25px;
+}
+.emojiSelect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 980px) {
+    .card {
+        width: 100%;
+        background: rgba(255, 255, 255, 0.16);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(3.2px);
+        -webkit-backdrop-filter: blur(3.2px);
+        border: 1px solid rgba(255, 255, 255, 0.19);
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .mb-small {
+        margin-bottom: 1rem;
+    }
+}
