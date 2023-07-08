@@ -84,6 +84,26 @@
             </div>
         </div>
     </div>
+    
+    <footer className="footer">
+        <div className='container'>
+            <div className="row">
+                <div className="col-sm padBottom">
+                    <h2>Tecnologías usadas:</h2>
+                    <h3>HTML, CSS y Codeigniter 💻</h3>
+                </div>
+                <div className="col-sm padBottom">
+                    <h2>Este proyecto fue realizado por:</h2>
+                    <h3>Andree Malerva ❤️</h3>
+                </div>
+                <div className="col-sm padBottom">
+                    <h2>¡Invitame un café!</h2>
+                    <a href="https://www.buymeacoffee.com/andreemalerva"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=andreemalerva&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://unpkg.com/picmo@latest/dist/umd/index.js"></script>
     <script src="<?php echo base_url('resources/javascript/index.js'); ?>"></script>
     <script type="module" src="../../resources/javascript/emoji.js"></script>

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Chakra+Petch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&family=Chakra+Petch&family=Coming+Soon&display=swap');
 
 :root {
     --font-Anonymous: 'Anonymous Pro', monospace;
@@ -281,6 +281,29 @@ button:focus-visible {
     align-items: center;
 }
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #DFDDE1;
+    padding: 1rem 0;
+}
+
+footer h2 {
+    font-family: var(--font-anonymous);
+    font-size: 20px;
+}
+
+footer h3 {
+    font-family: var(--font-coming);
+    ;
+    font-size: 16px;
+}
+
+.padBottom {
+    padding-bottom: 1rem;
+}
+
 @media screen and (max-width: 980px) {
     .card {
         width: 100%;
@@ -294,6 +317,20 @@ button:focus-visible {
 }
 
 @media screen and (max-width: 660px) {
+    footer {
+        position: relative;
+    }
+
+    footer h2 {
+        font-family: var(--font-anonymous);
+        font-size: 16px;
+    }
+    
+    footer h3 {
+        font-family: var(--font-coming);
+        font-size: 12px;
+    }
+
     .mb-small {
         margin-bottom: 1rem;
     }

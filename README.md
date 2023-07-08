@@ -19,4 +19,4 @@ Trabajemos juntos, te dejo por acá mi contacto.
 Este es un proyecto realizado con el framework de Codeigniter en conjunto a Webpack, implementado un TODO, haciendo la peticion a la API de PICMO.
 
 Puedes visualizarlo en la siguiente liga:
-[Demo for Andree Malerva]()🫶🏻
+[Demo for Andree Malerva]() 🫶🏻
