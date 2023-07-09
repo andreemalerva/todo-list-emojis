@@ -1,3 +1,5 @@
+console.log('archivo cargado');
+
 const buttonAddHomework = document.querySelector("#addButton");
 var list = [{ inputHomework: 'Programar', emoji: '🧑🏻‍💻' }, { inputHomework: 'Correr', emoji: '🏃🏻' }];
 var homeworkList = document.getElementById("homeworkList"); //Valor de la nueva tarea
@@ -40,7 +42,6 @@ function addTareas() {
 }
 
 function remove(valueHomework) {
-    console.log('tarea es', valueHomework);
     list.filter(function (item, index) {
         if (item.inputHomework === valueHomework) {
             list.splice(index, 1); 
