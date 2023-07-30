@@ -11,7 +11,7 @@ Trabajemos juntos, te dejo por acá mi contacto.
 
 ```
 📩 hola@andreemalerva.com
-📲 2283530727
+📲 +52 2283530727
 ```
 
 # Acerca del proyecto
